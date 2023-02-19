@@ -1,1 +1,118 @@
 /* CSS stillerinizi buraya girin */
+html{
+    font-size: 16px;
+    background-color: black;
+    color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+.buttons{
+     float: left;
+     width: 10%;
+}
+.ust p{
+ text-align: center;
+}
+.ust{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+}
+.buttons button{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 0.20rem;
+    border:none;
+}
+.buttons button:first-child{
+    background-color: red;
+}
+.buttons button:last-child{
+    background:green;
+}
+
+header{
+    background-color: gray;
+    padding: 1rem 2rem;
+    
+}
+
+h1{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 0;
+
+}
+
+nav{
+    display: block;
+   
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: white;
+    color: orange;
+
+}
+.half-container{
+    display: inline-block;
+    width: 48½;
+}
+h2{
+    font-weight: bold;
+}
+.half-container{
+    width: 100%;
+}
+a{
+    padding: 1rem;
+    text-decoration: none;
+    background: coral;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+.half-container:nth-child(2){
+    padding: 0 5%;
+
+}
+.first-container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.gallery-item{
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+.gallery-item img{
+    width: 90%;
+}
+footer{
+    text-align: center;
+    padding: 2%;
+    background-color: gray;
+    color: white;
+    font-size: 1rem;
+}
+footer a{
+    padding: 10px 20px;
+    background-color: white;
+    color: w;
+    font-size: large;
+    text-decoration: none;
+}
